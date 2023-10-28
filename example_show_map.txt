@@ -1,0 +1,11 @@
+# map定義
+tile = rectangle(10, 10)
+tile.setKey("init")
+tile.setImage("")
+
+map = rectangle(10, 10)
+map.addTile(tile)
+map.setDefaultTile("init")
+
+game.setMap(map)
+game.run()
